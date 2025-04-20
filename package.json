@@ -1,0 +1,60 @@
+{
+  "name": "theme-dark-night",
+  "version": "1.0.0",
+  "displayName": "dark Night Theme",
+  "homepage": "https://draculatheme.com/",
+  "description": "Custom vscode theme based on Dracula and Oscura themes",
+  "license": "MIT",
+  "scripts": {
+    "build": "node ./scripts/build.js",
+    "lint": "node ./scripts/lint.js",
+    "package": "vsce package -o ./bin/dark-night.vsix",
+    "vscode:prepublish": "npm run build",
+    "vsce-publish": "vsce publish"
+  },
+  "maintainers": [
+    "Angelo Evangelista"
+  ],
+  "contributors": [
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/angeloevangelista/dark-night-vscode-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/angeloevangelista/dark-night-vscode-theme/issues"
+  },
+  "engines": {
+    "vscode": "^1.13.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "dracula",
+    "oscura",
+    "dark",
+    "theme",
+    "color-theme"
+  ],
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#3c4557",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dark Night Theme",
+        "uiTheme": "vs-dark",
+        "path": "./theme/dark-night.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "js-yaml": "^4.1.0",
+    "prettier": "^3.0.0",
+    "tinycolor2": "^1.6.0",
+    "vsce": "^2.15.0"
+  }
+}
