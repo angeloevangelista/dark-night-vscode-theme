@@ -2,7 +2,6 @@
   "name": "theme-dark-night",
   "version": "1.0.0",
   "displayName": "dark Night Theme",
-  "homepage": "https://draculatheme.com/",
   "description": "Custom vscode theme based on Dracula and Oscura themes",
   "license": "MIT",
   "scripts": {
