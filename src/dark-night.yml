@@ -7,8 +7,8 @@ semanticClass: theme.dark-night
 semanticHighlighting: true
 dark-night:
   base:
-    - &BG        '#282A36'
-    - &FG        '#F8F8F2'
+    - &BG        '#131419'
+    - &FG        '#E6E6E6'
     - &SELECTION '#44475A'
     - &COMMENT   '#6272A4'
     - &CYAN      '#8BE9FD'
@@ -43,11 +43,11 @@ dark-night:
     - &LineHighlight '#44475A75'
     - &NonText       '#FFFFFF1A'
     - &WHITE         '#FFFFFF'
-    - &TAB_DROP_BG   '#44475A70'
+    - &TAB_DROP_BG   '#13141970'
     # UI Variants
     - &BGLighter     '#424450'
-    - &BGLight       '#343746' # HSV (230   , 25.71, 27.45)
-    - &BGDark        '#21222C' # HSV (234.55, 25   , 17.25)
+    - &BGLight       '#131419' # HSV (230   , 25.71, 27.45)
+    - &BGDark        '#131419' # HSV (234.55, 25   , 17.25)
     - &BGDarker      '#191A21' # HSV (234.55, 25   , 13   )
 
 # User Interface (more info: https://code.visualstudio.com/docs/getstarted/theme-color-reference)
