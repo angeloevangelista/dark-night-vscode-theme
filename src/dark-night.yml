@@ -47,7 +47,7 @@ dark-night:
     # UI Variants
     - &BGLighter     '#424450'
     - &BGLight       '#131419' # HSV (230   , 25.71, 27.45)
-    - &BGDark        '#131419' # HSV (234.55, 25   , 17.25)
+    - &BGDark        '#0e0f14' # HSV (234.55, 25   , 17.25)
     - &BGDarker      '#191A21' # HSV (234.55, 25   , 13   )
 
 # User Interface (more info: https://code.visualstudio.com/docs/getstarted/theme-color-reference)
